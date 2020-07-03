@@ -1,0 +1,1147 @@
+.fimela {
+	margin-left: 150px;
+	margin-right: 150px;
+}
+.header {
+	width: 100%;
+	border: 0px;
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+.menu{
+	background-color: white;
+	height: 50px;
+	line-height: 40px;
+	position: relative;
+	width: 1000px;
+	margin: auto;
+	margin-top: 20px;
+	border-top: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+	z-index: 100;
+}
+.sticky{
+	position: sticky;
+	top: 0px;
+	z-index: 100;
+
+}
+
+
+.menu ul{
+	padding: 0;
+	margin: 0;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	margin-top: 3px;
+}
+.menu ul li a{
+	text-decoration: none;
+}
+.menu ul li {
+	padding: 0px 12px;
+}
+.menu ul li a:hover{
+	color: #bf0561;
+}
+
+.dropdown{
+	position: relative;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-height: 225px;
+	min-width: 125px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 99;
+	float: bottom;
+}
+.dropdown-content2{
+	display: none;
+	position: absolute;
+	background-color: white;
+	padding-left: 10px;
+	min-height: 100px;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 99;
+	float: bottom;
+}
+.drop{
+	display: none;
+	background-color: black;
+	height: auto;
+	width: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 99;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.dropdown:hover .dropdown-content2{
+	display: block;
+}
+
+.icon {
+	width: 35px;
+	margin: 0px;
+}
+
+.col {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.col-sm img {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.center {
+	width: 1000px;
+	margin: 0 auto;
+}
+.media-body {
+	margin-right: 10px;
+}
+.media-body2 {
+	margin-right: 300px;
+}
+.margin {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.wrap {
+	width: 100%;
+	height: 750px;
+	background-color: black;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: white;
+}
+.wrap2 {
+	width: 100%;
+	height: 500px;
+	background-color: #F4F4F4;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.button {
+	background-color: #BF0561;
+}
+.pembungkus {
+	position: relative;
+}
+.pembungkus h3 {
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	color: white;
+}
+.pembungkus h4 {
+	position: absolute;
+	left: 40px;
+	top: 120px;
+	color: white;
+}
+#container1 {
+	position: relative;
+}
+#header1 {
+	background: black;
+	padding: 10px;
+	color: white;
+	height: 390px;
+}
+#footer {
+	text-align: center;
+	height: 75px;
+	line-height: 70px;
+	background: #1C1C1C;
+	color: #fff;
+}
+.tag {
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 160px;
+}
+.tags--box--list {
+	line-height: normal
+}
+.tags--box--list {
+	height: 49px;
+	line-height: 49px;
+	list-style: none;
+	width: 100%!important;
+	padding: 0;
+	margin: 0
+}
+.tags--box--list {
+	line-height: normal!important
+}
+.tags--box--item__link {
+	display: inline-block!important
+}
+.tags--box--item__link {
+	display: block;
+	line-height: 1;
+	margin-bottom: 1px;
+	font-size: 12px;
+	text-align: center;
+	text-transform: uppercase;
+	border: 1px solid #EBEBEB;
+	background-color: #FFF;
+	padding: 14px 12px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px
+}
+.tags--box--item__link:hover {
+	border-bottom: 1px solid #BF0561;
+	text-decoration: none;
+
+}
+.tags--box--item__name {
+	font-weight: 400;
+	color: #000
+}
+.swiper-container-vertical>.swiper-wrapper {
+	-ms-flex-direction: column;
+	flex-direction: column
+}
+.swiper-wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: -ms-flexbox;
+	display: flex;
+	transition-property: transform, -webkit-transform;
+	box-sizing: content-box
+}
+.swiper-container-android .swiper-slide,
+.swiper-wrapper {
+	transform: translate3d(0, 0, 0)
+}
+.swiper-container-multirow>.swiper-wrapper {
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap
+}
+.swiper-container-free-mode>.swiper-wrapper {
+	transition-timing-function: ease-out;
+	margin: 0 auto
+}
+.swiper-container-autoheight .swiper-wrapper {
+	-ms-flex-align: start;
+	align-items: flex-start;
+	transition-property: transform, height, -webkit-transform
+}
+.swiper-container-3d .swiper-cube-shadow,
+.swiper-container-3d .swiper-slide,
+.swiper-container-3d .swiper-slide-shadow-bottom,
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right,
+.swiper-container-3d .swiper-slide-shadow-top,
+.swiper-container-3d .swiper-wrapper {
+	transform-style: preserve-3d
+}
+.swiper-container-wp8-horizontal,
+.swiper-container-wp8-horizontal>.swiper-wrapper {
+	-ms-touch-action: pan-y;
+	touch-action: pan-y
+}
+.swiper-container-wp8-vertical,
+.swiper-container-wp8-vertical>.swiper-wrapper {
+	-ms-touch-action: pan-x;
+	touch-action: pan-x
+}
+.swiper-container-coverflow .swiper-wrapper {
+	-ms-perspective: 1200px
+}
+.tags--box--item {
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle
+}
+.tags--box--item .i-checklist {
+	display: none
+}
+.tags--box--item .i-checklist-green {
+	display: none
+}
+.tags--box--item__figure {
+	display: inline-block;
+	margin-right: -8px
+}
+.tags--box--item__thumbnail img {
+	border-radius: 50%
+}
+.tags--box--item__name {
+	font-weight: 400;
+	color: #000
+}
+.tags--box--item__link {
+	display: block;
+	line-height: 1;
+	margin-bottom: 1px;
+	font-size: 12px;
+	text-align: center;
+	text-transform: uppercase;
+	border: 1px solid #EBEBEB;
+	background-color: #FFF;
+	padding: 14px 12px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px
+}
+.tags--box--item__link:hover {
+	border-bottom: 1px solid #BF0561
+}
+.tags--box--item__topic-icon {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-left: 4px;
+	vertical-align: middle;
+	background-size: cover
+}
+.tags--box--item__topic-icon-green {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-left: 4px;
+	vertical-align: middle;
+	background-size: cover
+}
+.tags--box--item {
+	width: auto!important
+}
+.tags--box--item:last-child {
+	margin-right: 0
+}
+.tags--box--item__link {
+	display: inline-block!important
+}
+.col-sm {
+	padding-right: 0px;
+}
+
+.fimela--articles--iridescent-list--videos__item {
+	float: left;
+	width: 317px;
+	padding-bottom: 30px;
+	border-left: 1px solid #4A4A4A;
+	padding-left: 30px;
+	color: #000
+}
+
+.fimela--articles--iridescent-list--videos__item-button {
+	width: 100%;
+	text-align: center
+}
+.fimela--articles--iridescent-list--videos__item-button-title {
+	background-color: #BF0561;
+	border-radius: 3px;
+	padding: 13px;
+	font-family: Raleway;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1;
+	letter-spacing: 1px;
+	color: #FFF
+}
+.vidcol {
+	width: 700px;
+	margin-right: 2px;
+	margin-left: 78px;
+}
+.tile {
+	width: 250px;
+}
+.font-header {
+	font-family: Raleway, arial, helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #444;
+}
+.font-header li{
+	color: #444;
+}
+.font-tag {
+	font-family: Raleway, arial, helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #bf0561;
+}
+.font-konten {
+	font-family: 'Frank Ruhl Libre', Georgia, serif;
+	font-size: 25px;
+	line-height: 1.4em;
+	color: #333;
+}
+.font-kontenK {
+	font-family: 'Frank Ruhl Libre', Georgia, serif;
+	font-size: 18px;
+	line-height: 1.56;
+	color: #333;
+}
+.font-sub {
+	font-family: Raleway, arial, helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #444;
+}
+.font-foot {
+	font-size: 12px;
+	line-height: 1.83;
+	color: #FFF;
+	margin: 0;
+	font-family: Avenir;
+	font-weight: bold;
+}
+.font-foot2 {
+	font-size: 14px;
+	line-height: 1.83;
+	color: #FFF;
+	margin: 0;
+	font-family: Avenir;
+	font-weight: bold;
+}
+.tengah {
+	text-align: center;
+}
+.logobwh {
+	font-family: Raleway, arial, helvetica, sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 24px;
+	color: white;
+}
+.jarak-foot {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.icon-foot {
+	width: 20px;
+	float: left;
+	text-align: center;
+	margin: 5px;
+}
+
+.margin-head {
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.display {
+	height: 100px;
+	float: left;
+	border: solid 1px #EEE;
+	z-index: 5;
+}
+.font-tipis {
+	font-family: Raleway, arial, helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 25px;
+	color: #444;
+	text-align: left;
+	font-weight: normal;
+}
+.tile1 {
+	width: 700px;
+}
+.tile2 {
+	width: 300px;
+	height: 640px;
+	border: solid 1px #EEE;
+}
+
+.col-sm a{
+	text-decoration: none;
+}
+.media a{
+	text-decoration: none;
+}
+.col-6 a{
+	text-decoration: none;
+}
+.font-foot2 a{
+	text-decoration: none;
+}
+.font-konten:hover{
+	color: #bf0561;
+}
+.font-kontenK:hover{
+	color: #bf0561;
+}
+.font-putih{
+	font-family: 'Frank Ruhl Libre', Georgia, serif;
+	font-size: 25px;
+	line-height: 1.4em;
+	color: white;
+}
+.font-putihK{
+	font-family: 'Frank Ruhl Libre', Georgia, serif;
+	font-size: 14px;
+	line-height: 1.4em;
+	color: white;
+}
+.font-putih:hover{
+	color: #bf0561;
+}
+.font-putihK:hover{
+	color: #bf0561;
+}
+
+.bg{
+	text-align: center;
+	width: 200px;
+	min-height: 30px;
+	background-color: black;
+	color: white;
+}
+.font-judul{
+	font-family: Raleway;
+	font-size: 18px;
+	line-height: 1.56;
+	color: #333;
+}
+.font-judul:hover{
+	color: #bf0561;
+}
+
+
+
+form {
+    font-family: arial;
+    width: 500px;
+    min-height: 500px;
+    margin: auto;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+label{
+	color:#50626C;
+	text-transform: uppercase;
+}
+button {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+.button-fb{
+	line-height: 15px;
+	background-color: #3B5998;
+	width: 192px;
+	height: 42px;
+	margin: 5px;
+	margin-top: 15px;
+}
+.button-g{
+	line-height: 15px;
+	background-color: #DC4E41;
+	width: 192px;
+	height: 42px;
+	margin: 5px;
+	margin-top: 15px;
+}
+
+.font-log{
+	font-family: Raleway, arial, helvetica, sans-serif;
+	color: #787878;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: 400;
+	font-style: normal;
+
+}
+.font-masuk{
+	color: #231F20;
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+span.psw {
+    float: right;
+    padding-top: 0px;
+
+}
+
+.font-isi{
+	font-family: 'Frank Ruhl Libre',arial,helvetica;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 1.29;
+    margin: 0 0 24px 0;
+    color: #000;
+    width: 100%;
+}
+.author{
+	width: 700px;
+	min-height: 50px;
+}
+.isi{
+	min-height: 500px;
+}
+.font-isikonten{
+	font-family: Raleway, arial, helvetica, sans-serif;
+	color: black;
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: 400;
+	font-style: normal;
+
+}
+
+
+
+
+.zodiac__wrapper::after,
+    .zodiac__random::after,
+    .zodiac__other__link::after,
+    .zodiac__other__content::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+
+    /* Variable & Placeholder End */
+    * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .zodiac {
+        margin-top: 30px;
+    }
+
+    .zodiac__title {
+        position: relative;
+    }
+
+    .zodiac__title::after {
+        background-color: #eaeaea;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50%;
+        margin-top: 7px;
+        height: 1px;
+        content: "";
+        z-index: 1;
+    }
+
+    .zodiac__title-header {
+        font-family: 'Raleway';
+        font-size: 20px;
+        z-index: 2;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #000000;
+        position: relative;
+        display: table;
+        background-color: #FFF;
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        padding: 0 20px;
+    }
+
+    .zodiac__wrapper {
+        width: 1024px;
+        margin: 0 auto;
+    }
+
+    .zodiac__container {
+        float: left;
+        width: auto;
+        text-transform: uppercase;
+    }
+
+    .zodiac__aside {
+        float: right;
+        width: 300px;
+        height: 300px;
+    }
+
+    .zodiac__tab-container {
+        position: relative;
+        border-bottom: 1px solid #EAEAEA;
+        font-size: 0;
+    }
+
+    .zodiac__tab-container a:hover {
+        border-bottom: 2px solid #BF0561;
+        color: #BF0561;
+    }
+
+    .zodiac__tab-menu-daily,
+    .zodiac__tab-menu-weekly {
+        margin-right: 30px;
+        text-decoration: none;
+        font-family: 'Raleway';
+        font-size: 12px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1;
+        letter-spacing: 1px;
+        color: #000000;
+        padding-bottom: 14px;
+        display: inline-block;
+        border-bottom: 2px solid transparent;
+        margin-bottom: -1px;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .zodiac__tab-menu--actived {
+        border-bottom: 2px solid #BF0561;
+        color: #BF0561;
+    }
+
+    .zodiac__tab-content-daily,
+    .zodiac__tab-content-weekly {
+        display: none;
+    }
+
+    .zodiac__tab-content--show {
+        display: block;
+    }
+
+    .zodiac__tab-content--hidden {
+        display: none;
+    }
+
+    .zodiac__random {
+        margin-top: 30px;
+    }
+
+    .zodiac__random:hover .zodiac__random__icon-zodiac--gemini {
+        background-image: url(img\gemini-p.png);
+    }
+
+    .zodiac__random:hover .zodiac__random__icon-zodiac--aquarius {
+        background-image: url(img/aquarius-p.png);
+    }
+
+    .zodiac__random:hover .zodiac__random__icon-zodiac--aries {
+        background-image: url(img/aries-p.png);
+    }
+
+    .zodiac__random:hover .zodiac__random__icon-zodiac--cancer {
+        background-image: url(img/cancer-p.png);
+    }
+
+    .zodiac__random:hover .zodiac__random__icon-zodiac--leo {
+        background-image: url(img/leo-p.png);
+    }
+
+    .zodiac__random:hover .zodiac__random__icon-zodiac--virgo {
+        background-image: url(img/vir-p.png);
+    }
+
+    .zodiac__random:hover .zodiac__random__icon-zodiac--libra {
+        background-image: url(img/libra-p-p.png);
+    }
+
+    .zodiac__random:hover .zodiac__random__icon-zodiac--scorpio {
+        background-image: url(img/scor-p-p.png);
+    }
+
+    .zodiac__random:hover .zodiac__random__icon-zodiac--sagitarius {
+        background-image: url(img/sagi-p.png);
+    }
+
+    .zodiac__random:hover .zodiac__random__icon-zodiac--capricorn {
+        background-image: url(img/capricon-p.png);
+    }
+
+    .zodiac__random:hover .zodiac__random__icon-zodiac--pisces {
+        background-image: url(img/pisces-p.png);
+    }
+
+    .zodiac__random:hover .zodiac__random__icon-zodiac--taurus {
+        background-image: url(img/tau-p.png);
+    }
+
+    .zodiac__random:hover .zodiac__random__date {
+        color: #BF0561;
+    }
+
+    .zodiac__random--left {
+        width: 433px;
+        height: 243px;
+        float: left;
+    }
+
+    .zodiac__random--right {
+        float: left;
+        text-align: center;
+        border: 1px solid #eaeaea;
+        border-left: 0px;
+        height: 242px;
+        width: 240px;
+    }
+
+    .zodiac__random--right>.zodiac__random__link {
+        width: 86px;
+        height: 86px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .zodiac__random__title {
+        font-family: 'Raleway';
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1;
+        text-align: center;
+        color: #BF0561;
+        margin: 8px 0;
+    }
+
+    .zodiac__random__date {
+        font-family: 'Raleway';
+        font-size: 12px;
+        line-height: 1;
+        text-align: center;
+        color: #231f20;
+        text-transform: capitalize;
+        margin-bottom: 17px;
+        display: block;
+    }
+
+    .zodiac__random__sharer {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 36px 36px 36px;
+        grid-template-columns: 36px 36px 36px;
+        grid-column-gap: 6px;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .zodiac__random__sharer .zodiac__random__link .zodiac__random__img {
+        width: 36px;
+        height: 36px;
+        margin-top: 0px;
+    }
+
+    .zodiac__random__icon {
+        background-size: 36px;
+        width: 36px;
+        height: 36px;
+        display: block;
+    }
+
+    .zodiac__random__icon--fb {
+        background-image: url(img/fb-item.png);
+    }
+
+    .zodiac__random__icon--gplus {
+        background-image: url(img/ig-item.png);
+    }
+
+    .zodiac__random__icon--twitter {
+        background-image: url(img/tw-item.png);
+    }
+
+    .zodiac__random__link {
+        width: 36px;
+        height: 36px;
+    }
+
+    .zodiac__random__link .zodiac__random__icon-zodiac {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .zodiac__random__link .zodiac__random__img {
+        width: 433px;
+        height: 242px;
+    }
+
+    .zodiac__random__link:last-child {
+        margin-right: 0;
+    }
+
+    .zodiac__random__link:hover {
+        border-bottom: 0px !important;
+    }
+
+    .zodiac__other__image {
+        vertical-align: middle;
+        float: left;
+        width: 86px;
+        height: 86px;
+    }
+
+    .zodiac__other__img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .zodiac__other__item {
+        width: 337px;
+        float: left;
+        margin-bottom: 30px;
+    }
+
+    .zodiac__other__item-title {
+        font-family: 'Raleway';
+        font-weight: bold;
+        line-height: 1;
+        color: #BF0561;
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .zodiac__other__item-date {
+        font-family: 'Raleway';
+        font-size: 12px;
+        line-height: 1;
+        color: #231f20;
+        display: block;
+        text-transform: capitalize;
+    }
+
+    .zodiac__other__item:last-child {
+        margin-bottom: 0;
+    }
+
+    .zodiac__other__text {
+        vertical-align: middle;
+        margin-left: 12px;
+        float: left;
+        margin: 25px 0px 25px 12px;
+    }
+
+    .zodiac__other__link {
+        display: block;
+    }
+
+    .zodiac__other__link:hover .zodiac__other__item-date {
+        color: #BF0561;
+    }
+
+    .zodiac__other__link:hover .zodiac__other__icon--gemini,
+    .zodiac__other__link:hover .zodiac__random__link .zodiac__random__icon-zodiac--gemini,
+    .zodiac__random__link .zodiac__other__link:hover .zodiac__random__icon-zodiac--gemini {
+        background-image: url(img/gemini-p.png);
+    }
+
+    .zodiac__other__link:hover .zodiac__other__icon--aquarius,
+    .zodiac__other__link:hover .zodiac__random__link .zodiac__random__icon-zodiac--aquarius,
+    .zodiac__random__link .zodiac__other__link:hover .zodiac__random__icon-zodiac--aquarius {
+        background-image: url(img/aquarius-p.png);
+    }
+
+    .zodiac__other__link:hover .zodiac__other__icon--aries,
+    .zodiac__other__link:hover .zodiac__random__link .zodiac__random__icon-zodiac--aries,
+    .zodiac__random__link .zodiac__other__link:hover .zodiac__random__icon-zodiac--aries {
+        background-image: url(img/aries-p.png);
+    }
+
+    .zodiac__other__link:hover .zodiac__other__icon--cancer,
+    .zodiac__other__link:hover .zodiac__random__link .zodiac__random__icon-zodiac--cancer,
+    .zodiac__random__link .zodiac__other__link:hover .zodiac__random__icon-zodiac--cancer {
+        background-image: url(img/cancer-p.png);
+    }
+
+    .zodiac__other__link:hover .zodiac__other__icon--leo,
+    .zodiac__other__link:hover .zodiac__random__link .zodiac__random__icon-zodiac--leo,
+    .zodiac__random__link .zodiac__other__link:hover .zodiac__random__icon-zodiac--leo {
+        background-image: url(img/leo-p.png);
+    }
+
+    .zodiac__other__link:hover .zodiac__other__icon--virgo,
+    .zodiac__other__link:hover .zodiac__random__link .zodiac__random__icon-zodiac--virgo,
+    .zodiac__random__link .zodiac__other__link:hover .zodiac__random__icon-zodiac--virgo {
+        background-image: url(img/vir-p.png);
+    }
+
+    .zodiac__other__link:hover .zodiac__other__icon--libra,
+    .zodiac__other__link:hover .zodiac__random__link .zodiac__random__icon-zodiac--libra,
+    .zodiac__random__link .zodiac__other__link:hover .zodiac__random__icon-zodiac--libra {
+        background-image: url(img/libra-p.png);
+    }
+
+    .zodiac__other__link:hover .zodiac__other__icon--scorpio,
+    .zodiac__other__link:hover .zodiac__random__link .zodiac__random__icon-zodiac--scorpio,
+    .zodiac__random__link .zodiac__other__link:hover .zodiac__random__icon-zodiac--scorpio {
+        background-image: url(img/scor-p.png);
+    }
+
+    .zodiac__other__link:hover .zodiac__other__icon--sagitarius,
+    .zodiac__other__link:hover .zodiac__random__link .zodiac__random__icon-zodiac--sagitarius,
+    .zodiac__random__link .zodiac__other__link:hover .zodiac__random__icon-zodiac--sagitarius {
+        background-image: url(img/sagi-p.png);
+    }
+
+    .zodiac__other__link:hover .zodiac__other__icon--capricorn,
+    .zodiac__other__link:hover .zodiac__random__link .zodiac__random__icon-zodiac--capricorn,
+    .zodiac__random__link .zodiac__other__link:hover .zodiac__random__icon-zodiac--capricorn {
+        background-image: url(img/capricon-p.png);
+    }
+
+    .zodiac__other__link:hover .zodiac__other__icon--pisces,
+    .zodiac__other__link:hover .zodiac__random__link .zodiac__random__icon-zodiac--pisces,
+    .zodiac__random__link .zodiac__other__link:hover .zodiac__random__icon-zodiac--pisces {
+        background-image: url(img/pisces-p.png);
+    }
+
+    .zodiac__other__link:hover .zodiac__other__icon--taurus,
+    .zodiac__other__link:hover .zodiac__random__link .zodiac__random__icon-zodiac--taurus,
+    .zodiac__random__link .zodiac__other__link:hover .zodiac__random__icon-zodiac--taurus {
+        background-image: url(img/tau-p.png);
+    }
+
+    .zodiac__other__icon,
+    .zodiac__random__link .zodiac__random__icon-zodiac {
+        background-size: 86px;
+        width: 86px;
+        height: 86px;
+        display: block;
+        -webkit-transition: all 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out;
+    }
+
+    .zodiac__other__icon--aquarius,
+    .zodiac__random__link .zodiac__random__icon-zodiac--aquarius {
+        background-image: url(img/aquarius-i.png);
+    }
+
+    .zodiac__other__icon--aries,
+    .zodiac__random__link .zodiac__random__icon-zodiac--aries {
+        background-image: url(img/aries-i.png);
+    }
+
+    .zodiac__other__icon--cancer,
+    .zodiac__random__link .zodiac__random__icon-zodiac--cancer {
+        background-image: url(img/cancer-i.png);
+    }
+
+    .zodiac__other__icon--capricorn,
+    .zodiac__random__link .zodiac__random__icon-zodiac--capricorn {
+        background-image: url(img/capricon-i.png);
+    }
+
+    .zodiac__other__icon--gemini,
+    .zodiac__random__link .zodiac__random__icon-zodiac--gemini {
+        background-image: url(img/gemini-i.png);
+    }
+
+    .zodiac__other__icon--leo,
+    .zodiac__random__link .zodiac__random__icon-zodiac--leo {
+        background-image: url(img/leo-i.png);
+    }
+
+    .zodiac__other__icon--libra,
+    .zodiac__random__link .zodiac__random__icon-zodiac--libra {
+        background-image: url(img/libra-i.png);
+    }
+
+    .zodiac__other__icon--pisces,
+    .zodiac__random__link .zodiac__random__icon-zodiac--pisces {
+        background-image: url(img/pisces-i.png);
+    }
+
+    .zodiac__other__icon--sagitarius,
+    .zodiac__random__link .zodiac__random__icon-zodiac--sagitarius {
+        background-image: url(img/sagi-i.png);
+    }
+
+    .zodiac__other__icon--scorpio,
+    .zodiac__random__link .zodiac__random__icon-zodiac--scorpio {
+        background-image: url(img/scor-i.png);
+    }
+
+    .zodiac__other__icon--taurus,
+    .zodiac__random__link .zodiac__random__icon-zodiac--taurus {
+        background-image: url(img/tau-i.png);
+    }
+
+    .zodiac__other__icon--virgo,
+    .zodiac__random__link .zodiac__random__icon-zodiac--virgo {
+        background-image: url(img/vir-i.png);
+    }
+
+    .fimela--articles--list__column__category {
+        letter-spacing: 1px;
+    }
+
+    .fimela--articles--list__column__title {
+        text-transform: capitalize;
+        font-weight: 400;
+        margin-top: 8px;
+        margin-bottom: 5px;
+    }
+
+    .fimela--articles--list__column__short-desc {
+        text-transform: none;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+    .zodiak{
+    	height: 1000px;
+    	width: 100%;
+    }
+
+    .comunity-bg{
+    	background: url(img/005952500_1588046067-Fimela_Bagi_Pulsa_Artikel_size_prev.jpg);
+ 		width: 100%;
+ 		height: 300px;
+ 		margin: 0px;
+ 		padding-top: 90px;
+ 		padding-right: 20px;
+ 		padding-left: 20px;
+    }
+
+    .comunity-bg1{
+    	background: url(img/082119900_1587963305-IMG_20190912_115538.jpg);
+    	width: 100%;
+ 		height: 300px;
+ 		margin: 0px;
+ 		padding-top: 90px;
+ 		padding-right: 20px;
+ 		padding-left: 20px;
+    }
+    .comunity-bg2{
+    	background: url(img/008445300_1587875011-photo-1463717993767-4ded88224b61.jpg);
+    	width: 100%;
+ 		height: 300px;
+ 		margin: 0px;
+ 		padding-top: 90px;
+ 		padding-right: 20px;
+ 		padding-left: 20px;
+    }
